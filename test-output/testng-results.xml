@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Logging into http://www.amazon.com
+]]>
+    </line>
+    <line>
+      <![CDATA[Searching for 'Electronics' category 
+]]>
+    </line>
+    <line>
+      <![CDATA['All Electronics' selected]]>
+    </line>
+    <line>
+      <![CDATA[Searching for input search keys 
+]]>
+    </line>
+    <line>
+      <![CDATA[Search successful 
+]]>
+    </line>
+    <line>
+      <![CDATA[Count of results on page 17
+]]>
+    </line>
+    <line>
+      <![CDATA[Count of total number of results 17
+]]>
+    </line>
+    <line>
+      <![CDATA[Checking the presence of star ratings <br>]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24627" started-at="2016-12-16T02:41:36Z" finished-at="2016-12-16T02:42:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24627" started-at="2016-12-16T02:41:36Z" finished-at="2016-12-16T02:42:01Z">
+      <class name="tests.TestSearch">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:tests.TestSearch@523884b2]" name="BeforeSuite" is-config="true" duration-ms="3429" started-at="2016-12-15T21:41:33Z" finished-at="2016-12-15T21:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="TestHomePage()[pri:0, instance:tests.TestSearch@523884b2]" name="TestHomePage" duration-ms="17638" started-at="2016-12-15T21:41:36Z" finished-at="2016-12-15T21:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging into http://www.amazon.com
+]]>
+            </line>
+            <line>
+              <![CDATA[Searching for 'Electronics' category 
+]]>
+            </line>
+            <line>
+              <![CDATA['All Electronics' selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method status="PASS" signature="TestSearchPage(java.lang.String)[pri:0, instance:tests.TestSearch@523884b2]" name="TestSearchPage" duration-ms="4583" started-at="2016-12-15T21:41:54Z" data-provider="SearchProvider" depends-on-methods="tests.TestSearch.TestHomePage" finished-at="2016-12-15T21:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung TV:40 Inches:2015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching for input search keys 
+]]>
+            </line>
+            <line>
+              <![CDATA[Search successful 
+]]>
+            </line>
+            <line>
+              <![CDATA[Count of results on page 17
+]]>
+            </line>
+            <line>
+              <![CDATA[Count of total number of results 17
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestSearchPage -->
+        <test-method status="PASS" signature="TestStarRatings()[pri:0, instance:tests.TestSearch@523884b2]" name="TestStarRatings" duration-ms="2366" started-at="2016-12-15T21:41:58Z" depends-on-methods="tests.TestSearch.TestSearchPage" finished-at="2016-12-15T21:42:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking the presence of star ratings <br>]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStarRatings -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:tests.TestSearch@523884b2]" name="AfterSuite" is-config="true" duration-ms="1422" started-at="2016-12-15T21:42:01Z" finished-at="2016-12-15T21:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- tests.TestSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
